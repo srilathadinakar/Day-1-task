@@ -1,0 +1,6 @@
+Objects and its Internal Representation
+An object is a collection of properties.
+Properties are association of keys and value.
+Keys are string.
+Values can be any data type including other objects.
+The internal representation of Javascript object involves managing its properties and prototype linkage in memory, allowing flexible and dynamic object oriented programming in the language.
