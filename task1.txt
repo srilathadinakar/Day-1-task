@@ -1,1 +1,3 @@
 Difference between HTTP1.1 vs HTTP2
+http 1.1
+1. allow multiple request and responses to be sent to the TCP connection
