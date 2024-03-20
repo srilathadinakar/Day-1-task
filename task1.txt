@@ -1,2 +1,14 @@
 Difference between HTTP1.1 vs HTTP2
-http 1
+HTTP1.1
+1. Allow multiple request and responses to be sent to the TCP connection
+2.  It support pipelining. This reduce latency of protocol and improve performance
+3. Ability to specify cache control directives which can reduce the amount of data
+4. Lack of multiplexing. Allows a single request and response to be sent over a single connection at a time
+5. Inability to prioritize request
+6. No support for server push. The server cannot initiate the transfer of data to the client.
+
+HTTP 2:
+1. Allows multiple request and response to be sent over a single connection
+2. Uses binary protocol instead of text based protocol.
+3. Allows the client to specify the priority of request
+4. Allows the server to send multiple response to a single request 
